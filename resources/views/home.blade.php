@@ -7,43 +7,43 @@
                 <div class="card">
                     <div class="details">
                         <p>
-                            <strong> Titolo: </strong>
+                            <strong> Azienda: </strong>
                             <span>{{ $train->company }}</span>
                         </p>
                     </div>
                     <div class="details">
                         <p>
-                            <strong> Titolo Originale: </strong>
+                            <strong> Stazione di partenza: </strong>
                             <span>{{ $train->departure_station }}</span>
                         </p>
                     </div>
                     <div class="details">
                         <p>
-                            <strong>Nazionalità: </strong>
+                            <strong>Stazione di arrivo: </strong>
                             <span>{{ $train->arrival_station }}</span>
                         </p>
                     </div>
                     <div class="details">
                         <p>
-                            <strong> Data: </strong>
+                            <strong> Orario di partenza: </strong>
                             <span>{{ $train->departure_time }}</span>
                         </p>
                     </div>
                     <div class="details">
                         <p>
-                            <strong> Voto: </strong>
+                            <strong> Orario di arrivo: </strong>
                             <span>{{ $train->arrival_time }}</span>
                         </p>
                     </div>
                     <div class="details">
                         <p>
-                            <strong> Voto: </strong>
+                            <strong> Cod. Treno: </strong>
                             <span>{{ $train->train_code }}</span>
                         </p>
                     </div>
                     <div class="details">
                         <p>
-                            <strong> Voto: </strong>
+                            <strong> Numero carrozze: </strong>
                             <span>{{ $train->carriages_number }}</span>
                         </p>
                     </div>
