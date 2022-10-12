@@ -1,0 +1,19 @@
+.container{
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 3rem;
+    display: grid;
+    grid-template-columns:repeat(5, 1fr) ;
+    
+    .card{
+        background-color: rgba(112, 128, 144, 0.235);
+        padding: 10px;
+        margin: 10px;
+        border: 2px solid rgb(100, 100, 100);
+        border-radius: 7px;
+
+        .details{
+            padding: 2px;
+        }
+    }
+}
